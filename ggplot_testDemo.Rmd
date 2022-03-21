@@ -42,4 +42,14 @@ df["Gene_Name"] <- atac1hifilt_annotate$Gene.Name
 
 
 
+```{r}
+
+### Plot the scatter
+
+ggplot(df, aes(x = log2(y + 1), y = log2(o + 1), label = Gene_Name)) +
+  geom_point(color = case_when(df$Peaks %in% df2_o$Peaks ~ "#595959",
+                               df$Peaks %in% df2_y$Peaks ~ "#FF8000",
+                               TRUE ~ "#000000"), size = 2 , alpha = 0.6)
+
+```
 
