@@ -25,15 +25,15 @@ knitr::opts_knit$set(root.dir = "/projects/b1063/Gaurav/GitDemo_RStudio/")
 
 ```{r}
 
-df <- read.csv("./atac1_hi_filt.csv", header = T)
+df <- read.csv("/projects/b1063/Gaurav/GitDemo_Quest/atac1_hi_filt.csv", header = T)
 
-df2_o_50 <-  read.csv("./atac1_hi_filt_aging_old_subset_top50.csv", header=T)
-df2_y_50 <- read.csv("./atac1_hi_filt_aging_young_subset_top50.csv", header=T)
+df2_o_50 <-  read.csv("/projects/b1063/Gaurav/GitDemo_Quest/atac1_hi_filt_aging_old_subset_top50.csv", header=T)
+df2_y_50 <- read.csv("/projects/b1063/Gaurav/GitDemo_Quest/atac1_hi_filt_aging_young_subset_top50.csv", header=T)
 
-df2_o <-  read.csv("./atac1_hi_filt_agingsig_old.csv", header=T)
-df2_y <- read.csv("./atac1_hi_filt_agingsig_young.csv", header=T)
+df2_o <-  read.csv("/projects/b1063/Gaurav/GitDemo_Quest/atac1_hi_filt_agingsig_old.csv", header=T)
+df2_y <- read.csv("/projects/b1063/Gaurav/GitDemo_Quest/atac1_hi_filt_agingsig_young.csv", header=T)
 
-atac1hifilt_annotate <- read.csv("./atac1hifilt_annotate.txt", sep = "\t", header = T)
+atac1hifilt_annotate <- read.csv("/projects/b1063/Gaurav/GitDemo_Quest/atac1hifilt_annotate.txt", sep = "\t", header = T)
 
 df["Gene_Name"] <- atac1hifilt_annotate$Gene.Name
 
