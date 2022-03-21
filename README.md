@@ -1,2 +1,6 @@
-# GitDemo_RStudio
-Demo for using RStudio Projects with GitHub
+# GitDemo_Quest
+Test/Demo for using GitHub from the Quest command line
+
+Can we technically use github from anywhere ??? 
+- Quest
+
