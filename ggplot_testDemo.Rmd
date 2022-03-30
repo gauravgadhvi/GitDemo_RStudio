@@ -53,3 +53,12 @@ ggplot(df, aes(x = log2(y + 1), y = log2(o + 1), label = Gene_Name)) +
 
 ```
 
+```{r}
+### Add new functions for plotting scatters
+
+newFunc <- function(i){
+  
+  
+}
+```
+
